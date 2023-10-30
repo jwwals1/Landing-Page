@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: large;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 100;
+}
+
+#headerleft {
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: 700;
+    justify-self: flex-start;
+    /* padding-inline-end: 50%; */
+}
+
+#headerright {
+    justify-self: flex-end;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.body {
+    background-color: #1F2937;
+    color: white;
+}
+
+.body2 {
+    background-color: #E5E7EB;
+}
+
+.body3 {
+    background-color: #3882F6;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
