@@ -13,6 +13,7 @@
     justify-content: flex-start;
     font-weight: 700;
     justify-self: flex-start;
+    padding-right: 500px;
     /* padding-inline-end: 50%; */
 }
 
@@ -20,6 +21,7 @@
     justify-self: flex-end;
     align-self: flex-end;
     justify-content: flex-end;
+    padding-inline: 20px;
 }
 
 .body {
