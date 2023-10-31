@@ -10,8 +10,6 @@ body {
 }
 
 
-
-
 .header {
     display: flex;
     align-items: center;
@@ -28,7 +26,6 @@ body {
 }
 
 #headerright {
-    /* padding-inline: 20px; */
     padding: 10px;
     margin-right: 20px;
 }
@@ -36,6 +33,33 @@ body {
 .body {
     background-color: #1F2937;
     color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+#title {
+    font-size: 60px;
+    padding-bottom: 0%;
+    margin-bottom: 5px;
+}
+
+#description {
+    font-weight: 100;
+    color: lightgray;
+    margin-top: 5px;
+}
+
+#button {
+    background-color: #3882F6;
+    color: white;
+    border: #3882F6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+#image {
+    background-color: gray;
+    padding: 40px 60px 40px 60px;
+    text-align: center;
 }
 
 .body2 {
