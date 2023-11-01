@@ -1,7 +1,8 @@
 body {
     background-color: white;
     padding: 0;
-    margin: 0;
+    margin: 0px;
+    height: 100%;
 }
 
 .container {
@@ -31,20 +32,22 @@ body {
 }
 
 .body {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
     color: white;
     padding: 50px;
+    flex-direction: column;
 }
 
 #title {
-    display: block;
+    display: flex;
     font-size: 60px;
     position: relative;
     width: 40%;
     margin: 0%;
+    right: 30%;
 }
 
 #description {
@@ -52,22 +55,34 @@ body {
     color: lightgray;
     text-align: left;
     position: relative;
+    right: 35%;
     width: 30%;
-    height: 100px;
+    height: 75px;
     margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
-/* #button {
+#button {
     background-color: #3882F6;
     color: white;
     border: #3882F6;
-    padding: 10px 20px 10px 20px;
+    padding: 1em 2em 1em 2em;
     border-radius: 10px;
-} */
-/* 
+    font-size: large;
+    position: relative;
+    margin-top: 5px;
+    overflow: auto;
+    display: flex;
+    right: 45%
+}
+
+
+
 #image {
     float: right;
-    align-items: end;
+    /* align-items: end; */
     vertical-align: middle;
     background-color: gray;
     padding: 40px 60px 40px 60px;
@@ -75,7 +90,12 @@ body {
     height: 200px;
     width: 400px;
     position: relative;
-} */
+    display: flex;
+    flex-direction: column;
+    left: 20%;
+    bottom: 300px;
+
+}
 
 .body2 {
     background-color: #E5E7EB;
