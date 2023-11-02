@@ -1,11 +1,3 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -13,6 +5,11 @@ body {
     padding: 0;
     margin: 0px;
     height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -50,6 +47,12 @@ body {
     flex-wrap: wrap;
 }
 
+#body1div {
+    flex: auto;
+    display: contents;
+    flex-wrap: wrap;
+}
+
 #title {
     display: flex;
     font-size: 60px;
@@ -57,7 +60,6 @@ body {
     width: 40%;
     margin: 0%;
     right: 30%;
-    flex-wrap: wrap;
 }
 
 #description {
@@ -65,14 +67,12 @@ body {
     color: lightgray;
     text-align: left;
     position: relative;
-    right: 30%;
-    width: 50%;
-    height: 90px;
+    right: 35%;
+    width: 40%;
+    height: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin-left: 10%;
 }
 
 #button {
@@ -82,14 +82,10 @@ body {
     padding: 1em 2em 1em 2em;
     border-radius: 10px;
     font-size: large;
-    position: relative;
     margin-top: 5px;
     overflow: auto;
-    display: flex;
-    right: 30%;
-    flex-wrap: wrap;
+    align-self: baseline;
 }
-
 
 #image {
     background-color: gray;
@@ -98,11 +94,8 @@ body {
     height: 200px;
     width: 400px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    left: 20%;
+    left: 30%;
     bottom: 300px;
-    flex-wrap: wrap;
 }
 
 #title2 {
@@ -122,10 +115,6 @@ body {
 
 
 #imageplaceholder {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
     border: solid;
     border-color: blue;
     border-radius: 15px;
@@ -137,11 +126,7 @@ body {
 }
 
 #imagetext {
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
     color: gray;
-    justify-content: center;
     width: 35%;
     padding-left: 15%;
     margin-top: 2%;
