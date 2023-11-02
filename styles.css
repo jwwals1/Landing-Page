@@ -113,20 +113,14 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 9%;
+    justify-content: center;
 }
 
-#imagetext {
-    flex-wrap: wrap;
-    display: flex;
-    color: gray;
-    justify-content: center;
-    width: 40%;
-    padding-left: 9%;
-}
 
 #imageplaceholder {
     display: flex;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     border: solid;
     border-color: blue;
@@ -134,17 +128,82 @@ body {
     width: 200px;
     height: 200px;
     color: white;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
+
+#imagetext {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    color: gray;
+    justify-content: center;
+    width: 35%;
+    padding-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
 
 .body3 {
     background-color: #E5E7EB;
+    padding: 10%;
+}
+
+#quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 30%;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+#quotename {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: end;
+    margin-right: 15%;
+    margin-top: 0%;
 }
 
 
 
 .body4 {
     background-color: #3882F6;
+    border-radius: 10px;
     color: white;
+    margin: 5%;
+    display: flex;
+    align-content: center;
+    padding: 5%;
+}
+
+#body4title {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1%;
+}
+
+#body4text {
+    color: lightgray;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#body4button {
+    align-self: flex-end;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+
 }
 
 .footer {
